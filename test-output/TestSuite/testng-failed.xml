@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <parameter name="browser" value="IE"/>
+  <test name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.TestMenuNG">
+        <methods>
+          <include name="MvpSuite"/>
+          <include name="afterMethod"/>
+          <include name="MapSection"/>
+          <include name="PremiumView"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.TestMenuNG -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="test.TestMenuNG">
+        <methods>
+          <include name="MvpSuite"/>
+          <include name="afterMethod"/>
+          <include name="TicketPrice"/>
+          <include name="TopMenuBar"/>
+          <include name="MapSection"/>
+          <include name="PremiumView"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.TestMenuNG -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Internet Explorer Test(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="test.TestMenuNG">
+        <methods>
+          <include name="MvpSuite"/>
+          <include name="afterMethod"/>
+          <include name="TicketPrice"/>
+          <include name="TopMenuBar"/>
+          <include name="MapSection"/>
+          <include name="PremiumView"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.TestMenuNG -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
