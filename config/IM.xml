@@ -7,6 +7,7 @@
       <class name="test.TestMenuNG"/>
     </classes>
 </test> 
+<!--  
 <test name="Firefox Test">
   <parameter name="browser" value="Firefox"/>
     <classes>
@@ -19,4 +20,5 @@
       <class name="test.TestMenuNG"/>
     </classes>
   </test>
+  -->
 </suite> <!-- Suite -->

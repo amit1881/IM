@@ -49,7 +49,7 @@ public class TestMenuNG {
 		  TestHelper.ExitButton(driver).click();
 		  
 	  }
-	@Test(priority=1)
+	@Test(enabled=false,priority=1)
 	public void TicketPrice() throws IOException{
 		for(int i=0;i<=4;i++){
 			wait.until(ExpectedConditions.elementToBeClickable(TestHelper.Search(driver)));
@@ -70,7 +70,7 @@ public class TestMenuNG {
 			driver.navigate().back();
 		}
 	}
-	@Test(priority=2)
+	@Test(enabled=false,priority=2)
 	public void MapSection() throws IOException{
 		
 		String[] benefits = null;
@@ -102,12 +102,12 @@ public class TestMenuNG {
 	  }
 	}
 }
-	@Test(priority=3)
+	@Test(enabled=false,priority=3)
 	public void PremiumView(){
 		TestHelper.PremiumViews(driver).click();
 		TestViews.GetViews(driver, wait);
 	}
-	@Test(priority=4)
+	@Test(enabled=false,priority=4)
 	public void MvpSuite(){
 		TestHelper.MvpViews(driver).click();
 		TestViews.GetViews(driver, wait);
