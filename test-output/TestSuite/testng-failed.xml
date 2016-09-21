@@ -8,7 +8,8 @@
       <class name="test.TestMenuNG">
         <methods>
           <include name="MvpSuite"/>
-          <include name="afterMethod"/>
+          <include name="TicketPrice"/>
+          <include name="TopMenuBar"/>
           <include name="MapSection"/>
           <include name="PremiumView"/>
           <include name="beforeMethod"/>
@@ -24,7 +25,6 @@
       <class name="test.TestMenuNG">
         <methods>
           <include name="MvpSuite"/>
-          <include name="afterMethod"/>
           <include name="TicketPrice"/>
           <include name="TopMenuBar"/>
           <include name="MapSection"/>
@@ -42,7 +42,6 @@
       <class name="test.TestMenuNG">
         <methods>
           <include name="MvpSuite"/>
-          <include name="afterMethod"/>
           <include name="TicketPrice"/>
           <include name="TopMenuBar"/>
           <include name="MapSection"/>
