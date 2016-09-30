@@ -16,6 +16,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import dal.MyService;
 import utility.TestHelper;
 import utility.TestViews;
 
@@ -130,7 +132,7 @@ public class TestMenuNG {
         	String[] topmenubar={menuitem,item_font_size,item_font_family,item_font_color};
         	System.out.println(topmenubar[0]+" "+topmenubar[1]+" "+topmenubar[2]+" "+topmenubar[3]);
         	WriteToExcel.writeExcel("C://Users//amit//workspace-mars//IM//TestData","menu-items-attributes.xlsx","Sheet1",topmenubar);
-        	
+        	MyService.insertData(menuitem,item_font_size,item_font_family,item_font_color);
         }
     }
     @AfterMethod
